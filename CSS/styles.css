@@ -1,0 +1,158 @@
+/* always make responsive websites in rem
+-->  font size: 100% = 1 rem = 16px
+therefore, 1 rem =10px = 62.5%
+but we take 1 rem = 10px for calculations
+
+therefore instead of :
+20px = 2 rem
+35px = 3.5 rem and so on...
+imp formula =  10px = 1 rem = 62.5%
+
+for media query use in px */
+
+
+html{font-size : 62.5%;   /* most imp line */}
+
+body{
+  background-color: powderblue;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  width: 100vw;
+  height: 100vh;
+}
+p{
+  font-size: 2rem;
+  color:#2F5D62;
+}
+h1
+{
+  font-size: 5rem;
+  font-family: 'Kaisei Tokumin', serif;
+
+}
+
+.profile{
+  width: 85vw;
+  font-size: 2rem;
+   color: #7D1935;
+}
+h2{
+  padding-left: 20.0rem;
+}
+.cursive{
+  padding-left: 15.0rem;
+}
+
+.contact-me{
+  padding-right: 20.0rem;
+}
+.contact{
+  padding-right: 20.0rem;
+  padding-left: 20.0rem;
+}
+.dance-img{
+  width: 25vh;
+}
+.skillss{
+  font-size:2rem;
+  padding-right: 20rem;
+  color: #7D1935;
+}
+.middle-container{
+  padding-right: 20rem;
+
+}
+.dancer{
+  height: 20rem;
+  width : 20rem;
+}
+.bottom-cloud{
+width: 14rem;
+height: 14rem;
+padding-right: 5rem;
+padding-bottom: 9rem;
+}
+.mountain{
+  width: 40rem;
+  margin-right: 10rem;
+}
+.top-cloud{
+  padding-left: 50rem;
+}
+.h22{
+  font-size : 4rem;
+  color: #7D1935;
+}
+.h21{
+  font-size: 3rem;
+  color: #7D1935;
+}
+.p1{
+  font-size: 2rem;
+  padding-right: 4rem;
+  color: #7D1935;
+}
+.h31{
+  font-size:2rem;
+  color: #B42B51;
+}
+.h32{
+  font-size:2rem;
+  color: #B42B51;
+}
+.h33{
+  font-size:2rem;
+  color: #B42B51;
+}
+.contact-me{
+  color: #7D1935;
+  font-size: 2rem;
+}
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'PT Serif', serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.bottom-container{
+  background-color:#66BFBF;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  padding: 5rem 0 2rem;
+}
+a{
+ color:#11999e;
+ font-family: 'Kaisei Tokumin', serif;
+ margin:1rem 2rem 0;
+ text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 1.2rem;
+  padding:2rem 0;
+}
